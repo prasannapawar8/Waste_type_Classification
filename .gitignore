@@ -1,48 +1,54 @@
-
-best_model.h5
-*.h5
-*.pkl
-*.pt
-*.pth
-
-
-trashnet_data/
-dataset/
-data/
-
-
-training_curves.png
-confusion_matrix.png
-gradcam_output.png
-*.png
-*.jpg
-*.jpeg
-
-# ─── PYTHON CACHE ───
+# ─── Python Cache ─────────────────────────────
 __pycache__/
-*.py[cod]
+*.pyc
 *.pyo
-.Python
+*.pyd
 
-# ─── VIRTUAL ENVIRONMENT ───
+# ─── Virtual Environment ──────────────────────
 venv/
 env/
-.env
-*.env
+.venv/
 
-# ─── VS CODE SETTINGS ───
-.vscode/
-*.code-workspace
-
-# ─── JUPYTER NOTEBOOKS CHECKPOINTS ───
+# ─── Jupyter Notebook Checkpoints ─────────────
 .ipynb_checkpoints/
-*.ipynb
 
-# ─── OS FILES ───
+# ─── System Files ─────────────────────────────
 .DS_Store
 Thumbs.db
-desktop.ini
 
-# ─── LOGS ───
-*.log
+# ─── Dataset (VERY IMPORTANT) ────────────────
+trashnet_data/
+
+# ─── Model Files ─────────────────────────────
+*.h5
+*.hdf5
+*.keras
+
+# ─── Output Images (Optional: ignore or keep) ─
+# Uncomment below if you DON'T want to push results
+# *.png
+# *.jpg
+# *.jpeg
+
+# ─── Logs ────────────────────────────────────
 logs/
+*.log
+
+# ─── Temporary Files ─────────────────────────
+*.tmp
+*.temp
+
+# ─── IDE Files ───────────────────────────────
+.vscode/
+.idea/
+
+# ─── Environment Variables ───────────────────
+.env
+
+# ─── Build / Dist ────────────────────────────
+build/
+dist/
+*.egg-info/
+
+# ─── Misc ────────────────────────────────────
+*.sqlite3
