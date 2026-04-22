@@ -1,0 +1,48 @@
+# ─── MODEL FILES (too large for GitHub) ───
+best_model.h5
+*.h5
+*.pkl
+*.pt
+*.pth
+
+# ─── DATASET (never push datasets to GitHub) ───
+trashnet_data/
+dataset/
+data/
+
+# ─── GENERATED OUTPUT IMAGES ───
+training_curves.png
+confusion_matrix.png
+gradcam_output.png
+*.png
+*.jpg
+*.jpeg
+
+# ─── PYTHON CACHE ───
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+
+# ─── VIRTUAL ENVIRONMENT ───
+venv/
+env/
+.env
+*.env
+
+# ─── VS CODE SETTINGS ───
+.vscode/
+*.code-workspace
+
+# ─── JUPYTER NOTEBOOKS CHECKPOINTS ───
+.ipynb_checkpoints/
+*.ipynb
+
+# ─── OS FILES ───
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── LOGS ───
+*.log
+logs/
